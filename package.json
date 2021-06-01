@@ -1,0 +1,22 @@
+{
+  "name": "@pauloportella/alfred-notion-quick-add",
+  "version": "0.0.1",
+  "description": "Easily capture data into your Notion inbox",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "keywords": [
+    "alfred",
+    "notion",
+    "notion-api"
+  ],
+  "author": "Paulo Portella",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^0.1.8",
+    "alfred-notifier": "^0.2.3",
+    "alfy": "^0.10.0"
+  }
+}
