@@ -1010,12 +1010,12 @@ do shell script "source ~/.profile; " &amp; "nac " &amp; title's quoted form &am
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
-		<string>DATABASE_ID</string>
 		<string>NOTION_TOKEN</string>
+		<string>DATABASE_ID</string>
 	</array>
 	<key>version</key>
-	<string>0.0.1</string>
+	<string>0.0.2</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/pauloportella/alfred-notion-quick-add</string>
 </dict>
 </plist>
