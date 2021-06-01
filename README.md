@@ -1,6 +1,8 @@
 # alfred-notion-quick-add
 
-> Easily capture data into your Notion inbox
+> Easily capture data into a Notion database.
+
+![Walkthrough](/walkthrough.gif)
 
 ## Install
 
@@ -14,7 +16,7 @@ $ npm install --global @pauloportella/alfred-notion-quick-add
 
 ## Config
 
-Update the `.env` with your Notion token and the database you would like to connect to the workflow.
+Update the `.env` with your Notion token and the database you would like to connect to the workflow. You can also add the variables directly on Alfred.
 
 ```
 NOTION_TOKEN=
