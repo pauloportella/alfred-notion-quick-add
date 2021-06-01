@@ -4,7 +4,7 @@
     "type": "git",
     "url": "ssh://git@github.com:pauloportella/alfred-notion-quick-add.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily capture data into your Notion inbox",
   "main": "index.js",
   "scripts": {
