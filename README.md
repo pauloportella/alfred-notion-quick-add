@@ -16,12 +16,16 @@ $ npm install --global @pauloportella/alfred-notion-quick-add
 
 ## Config
 
-Update the `.env` with your Notion token and the database you would like to connect to the workflow. You can also add the variables directly on Alfred.
+1. Create an integration at https://www.notion.so/my-integrations.  Note the "Internal Integration Token" this is your NOTION_TOKEN.
 
-```
-NOTION_TOKEN=
-DATABASE_ID=
-```
+2. Choose a Task database you want to add to. *IMPORTANT* ensure that the Title field is called "Name".  @TODO: Make this configurable
+
+3. Click Share, and share the database with your newly created integration.
+
+4. Click "copy link".  Take the long string of numbers and letters after http://notion.so/ and before the question mark.
+i.e. https://notion.so/abcdefg?whatever (abcdefg is your DATABASE_ID)
+
+5. Click on the configure button for this workflow (first one on the left in the top right of the screen.  Add in your NOTION_TOKEN and your DATABASE_ID.
 
 ## Usage
 
